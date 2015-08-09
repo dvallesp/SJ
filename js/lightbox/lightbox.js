@@ -17,7 +17,7 @@
       this.fitImagesInViewport         = true;
       this.resizeDuration              = 700;
       this.positionFromTop             = 50;
-      this.showImageNumberLabel        = true;
+      this.showImageNumberLabel        = false;
       this.alwaysShowNavOnTouchDevices = false;
       this.wrapAround                  = false;
     }
