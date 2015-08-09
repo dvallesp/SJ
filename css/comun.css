@@ -92,3 +92,20 @@ body {
 .form-horizontal input, .form-horizontal textarea{
   width: 100%;
 }
+
+/*GALERIAS*/
+
+.paggalerias .thumbnail img{
+  height: 180px;
+}
+
+@media (max-width: 600px){
+  .paggalerias .thumbnail img{
+    height: 150px;
+  }
+}
+
+.paggalerias .thumbnail .caption h3, .paggalerias .thumbnail .caption h3:hover, .paggalerias .thumbnail .caption a, .paggalerias .thumbnail .caption a:hover{
+  color: black;
+  text-decoration: none;
+}
