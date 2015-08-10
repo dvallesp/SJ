@@ -99,9 +99,17 @@ body {
   height: 180px;
 }
 
+.thumbnail{
+  height: 300px;
+}
+
 @media (max-width: 600px){
   .paggalerias .thumbnail img{
     height: 150px;
+  }
+
+  .thumbnail{
+  height: 250px;
   }
 }
 
